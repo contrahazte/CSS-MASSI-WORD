@@ -85,3 +85,7 @@ button{
     color:wheat ;
 
 }
+
+button:hover{
+    background-color: palevioletred;
+}
