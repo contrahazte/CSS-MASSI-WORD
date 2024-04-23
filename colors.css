@@ -1,0 +1,127 @@
+*,
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+  width: 100%;
+  height: 100hv;
+}
+
+section {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   gap: 1rem;
+   margin-right:2.5rem ;
+  height: 100vh;
+
+
+   
+}
+
+
+ul {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 15px;
+    gap:2rem;
+    margin-top: 0.5rem;
+    align-items: center;
+}
+
+li {
+text-align: center;
+padding-top: 1.7rem;
+   list-style: none;
+   margin-top: 0.6rem;
+   border:2px solid transparent;
+   background-color: white;
+   width: 3rem;
+   height:2.5rem
+}
+
+#yellow {
+    background-color: rgb(247, 247, 156);
+    width: 12%;
+ 
+
+}
+
+
+#red {
+    background-color: rgb(253, 162, 174);
+  width: 12%;
+
+}
+
+#green {
+    background-color: rgb(177, 243, 177); 
+    width: 10%;
+}
+
+
+
+
+#orange {
+    background-color: rgb(241, 194, 156);
+    width: 20%; 
+
+
+}
+
+
+#blue {
+    background-color: rgb(133, 178, 236); 
+    width: 12%;
+}
+
+p.y {
+   text-align: center;
+    margin-top: 3rem;
+}
+
+p.r {
+    margin-top: 3rem;
+    text-align: center;
+    margin-right: 3rem;
+}
+p.g{
+    margin-top: 3rem;
+    text-align: center;
+}
+
+p.o {
+    margin-top: 3rem;
+    text-align: left;
+    margin-left: 2rem;
+}
+
+p.b {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    div {
+        display: flex;
+        flex-direction: row;
+      width: 100%;
+      height: 100hv;
+    }
+    
+    section {
+        display: inline-flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+       gap: 1rem;
+       margin-right:2.5rem ;
+      height: 100vh;
+}}
