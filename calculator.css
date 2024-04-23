@@ -1,0 +1,77 @@
+ody{
+    display: flex;
+    justify-content: center;
+    padding-top: 6rem;
+}
+
+.calculadora{
+    background-color: rgba(223, 234, 250, 0.603);
+    display: grid;
+    grid-template-areas: "0 0 0 0";
+    border: 0px;
+    border-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    width: 330px;
+    height: 330px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.258);
+}
+
+.calculadora > div{
+    color: black;
+    border: 1px solid rgba(117, 132, 152, 0.521);
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+
+#calculo{
+    display: flex;
+    grid-area: 1/1/1/5;
+    text-align: right;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 27px;
+    background-color: rgba(41, 56, 67, 0.838);
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    padding-right: 10px;
+}
+
+#igual{
+    grid-area: 3/4/7/5;
+    border: 1px solid rgba(117, 132, 152, 0.521);
+    border-bottom-right-radius: 10px;
+    border-right: 0px;
+    border-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(245, 44, 44, 0.57);
+}
+
+#cero, #punto, #ac{
+    border-bottom: 0px;
+}
+
+#cero{
+    border-bottom-left-radius: 10px;
+    border-left: 0px;
+}
+
+#suma, #uno, #siete, #cuatro {
+    border-left: 0px;
+}
+
+#suma, #resta, #multiplicacion, #division{
+    background-color: rgba(192, 200, 211, 0.518);
+}
+
+#division{
+    border-right: 0px;
+}
